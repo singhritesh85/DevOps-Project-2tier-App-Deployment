@@ -24,6 +24,7 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2563027e-81c7-4c00-aa7b-2704ced715cc)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/981e25ec-3dfa-4336-a4a8-75ea95a6f89a)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/beabbcee-e9e3-4042-8054-49163ca429f5)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/09b7f893-2878-4952-8f80-978a23cbc871)
 <br><br/>
 **Configure Slave Node for Jenkins**
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/601c5915-445b-4ffb-ae83-bad32651dcd2)
