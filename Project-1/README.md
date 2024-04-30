@@ -132,6 +132,7 @@ mv sonarqube-9.9.5.90363/ sonarqube
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/4f049def-256f-4816-bd0c-0b2bae1c176f)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/25d52c66-912a-4a16-a53d-4e8036c737ae)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/bf31778a-882d-45e8-851b-d54f2cf84774)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b3c0710d-a070-4b84-96e8-fb04746c8c78)
 
 
 
