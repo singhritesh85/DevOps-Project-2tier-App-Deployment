@@ -1,7 +1,7 @@
 # Deployment of two-tier Tomcat Application with EKS
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/80b104a8-ceae-4eac-91e3-efd7939c9d37)
 <br> <br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/4030e080-7faf-4be0-8ea3-e5cb13f5465b)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/1bbea9a7-8598-495d-a952-604ac50defff)
 <br><br/>
 **The above shown diagram is high level architecture of the entire end-to-end setup, for CI/CD tool Jenkins and to create the application ArgoCD has been used. To check code quality SonarQube, to upload the artifacts Nexus and to scan the docker image trivy scan has been used.**
 <br><br/>
