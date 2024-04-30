@@ -30,10 +30,10 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/402ab71b-3abe-43f1-9adc-5aade5cd3c89)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2a6b63c9-2519-4cc4-9e65-53964634dc22)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f8444285-cd39-49aa-80d9-17d4aaa2f38c)
-
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f20c0db8-6de6-4914-856c-4f7f1755c959)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/bd708d12-a091-4fab-9e4f-4bab37900277)
-
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5e2ed699-6391-4cb0-80e0-bfd5dfab5b0d)
+<br><br/>
+Install Java 17 using the command *yum install java-17* -y*
 <br><br/>
 **Install Plugins for Jenkins and Configure SonarQube and Email Notification in Jenkins**
 <br><br/>
