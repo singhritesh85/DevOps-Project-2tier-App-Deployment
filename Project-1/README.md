@@ -50,6 +50,48 @@ mv apache-maven-3.9.6/ apache-maven
 curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin v0.38.3
 ```
 <br><br/>
+**Configure Sendmail with SES on Jenkins Slave Node**
+```
+yum install -y sendmail sendmail-cf m4
+vim /etc/mail/authinfo
+
+AuthInfo:email-smtp.us-east-2.amazonaws.com "U:root" "I:AKIXXXXXXXXXF75XXXZC" "P:BCXXXXXXXlaYBAXXXxxxxXXXNEzxGXXxxXXcfPa" "M:PLAIN"
+
+
+sudo sh -c 'makemap hash /etc/mail/authinfo.db < /etc/mail/authinfo'
+sh -c 'echo "Connect:email-smtp.us-east-2.amazonaws.com RELAY" /etc/mail/access'
+sh -c 'makemap hash /etc/mail/access.db < /etc/mail/access'
+sudo sh -c 'cp /etc/mail/sendmail.cf /etc/mail/sendmail_cf.backup && cp /etc/mail/sendmail.mc /etc/mail/sendmail_mc.backup'
+
+
+
+
+Add the lines below to the /etc/mail/sendmail.mc file before any MAILER() declarations
+
+vim /etc/mail/sendmail.mc
+
+define(`SMART_HOST', `email-smtp.us-east-2.amazonaws.com')dnl
+define(`RELAY_MAILER_ARGS', `TCP $h 587')dnl
+define(`confAUTH_MECHANISMS', `EXTERNAL GSSAPI DIGEST-MD5 CRAM-MD5 LOGIN PLAIN')dnl
+FEATURE(`authinfo', `hash -o /etc/mail/authinfo.db')dnl
+MASQUERADE_AS(`singhritesh85.com')dnl
+FEATURE(masquerade_envelope)dnl
+FEATURE(masquerade_entire_domain)dnl
+
+sudo chmod 666 /etc/mail/sendmail.cf
+sh -c 'm4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf'
+sudo chmod 644 /etc/mail/sendmail.cf
+systemctl restart sendmail
+/usr/sbin/sendmail -f abc@singhritesh85.com rksgoal@gmail.com
+
+yum install -y mailx
+
+
+vim /var/log/maillog   ====================>   To see the mail log.
+```
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/01bd5c2d-ddf0-4152-970c-4694167b31c5)
+
+<br><br/>
 **Install Plugins for Jenkins and Configure SonarQube and Email Notification in Jenkins**
 <br><br/>
 Install 1. Nexus Artifact Uploader 2. SonarQube Scanner for Jenkins and 3. Pipeline Utility Steps plugins
