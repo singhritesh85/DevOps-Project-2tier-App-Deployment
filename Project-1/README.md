@@ -127,7 +127,7 @@ unzip sonarqube-9.9.5.90363.zip
 mv sonarqube-9.9.5.90363/ sonarqube
 
 ```
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/861e3301-5707-4a9b-8cfd-0d5fc47c2d1b)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5aeec7fb-5199-4777-a9d7-66433602d6e4)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0b7ed251-74b8-41d2-b886-6582f4e49850)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/4f049def-256f-4816-bd0c-0b2bae1c176f)
 
