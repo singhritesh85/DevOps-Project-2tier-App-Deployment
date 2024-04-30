@@ -120,8 +120,18 @@ Install 1. Nexus Artifact Uploader 2. SonarQube Scanner for Jenkins and 3. Pipel
 **SonarQube Installation**
 ```
 1. Install Java using the command yum install -y java-17*
+2. Download binary for SonarQube and unarchive it, then do the further configuration as shown in the screenshots below
+
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.9.5.90363.zip
+unzip sonarqube-9.9.5.90363.zip
+mv sonarqube-9.9.5.90363/ sonarqube
 
 ```
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/861e3301-5707-4a9b-8cfd-0d5fc47c2d1b)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0b7ed251-74b8-41d2-b886-6582f4e49850)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/4f049def-256f-4816-bd0c-0b2bae1c176f)
+
+
 
 
 
