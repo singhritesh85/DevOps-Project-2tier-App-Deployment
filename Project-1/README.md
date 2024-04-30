@@ -33,7 +33,22 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f20c0db8-6de6-4914-856c-4f7f1755c959)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5e2ed699-6391-4cb0-80e0-bfd5dfab5b0d)
 <br><br/>
-Install Java 17 using the command yum install java-17* -y
+Install Java 17 
+Install Docker and start Docker Service 
+download maven binary and unarchive it
+Install trivy
+```
+yum install -y java-17*
+
+yum install -y docker -y && systemctl start docker && systemctl enable docker
+usermod -G docker jenkins
+
+wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+tar -xvf apache-maven-3.9.6-bin.tar.gz
+mv apache-maven-3.9.6/ apache-maven
+
+curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin v0.38.3
+```
 <br><br/>
 **Install Plugins for Jenkins and Configure SonarQube and Email Notification in Jenkins**
 <br><br/>
@@ -54,6 +69,12 @@ Install 1. Nexus Artifact Uploader 2. SonarQube Scanner for Jenkins and 3. Pipel
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/874ac72d-0535-4033-8a72-3b7b547c7705)
 **Passwords for Jenkins**
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e591f93e-ff84-4489-8ee8-4668f5286c5f)
+
+**SonarQube Installation**
+```
+1. Install Java using the command yum install -y java-17*
+
+```
 
 
 
