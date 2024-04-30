@@ -32,6 +32,7 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f8444285-cd39-49aa-80d9-17d4aaa2f38c)
 
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f20c0db8-6de6-4914-856c-4f7f1755c959)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/bd708d12-a091-4fab-9e4f-4bab37900277)
 
 <br><br/>
 **Install Plugins for Jenkins and Configure SonarQube and Email Notification in Jenkins**
