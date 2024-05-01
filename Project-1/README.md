@@ -232,4 +232,99 @@ kubectl create ns ingress-nginx
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm repo update
 helm install ingress-nginx ingress-nginx/ingress-nginx -n ingress-nginx
+kubectl get svc -n ingress-nginx
+kubectl edit svc ingress-nginx-controller -n ingress-nginx
+
+Add the below annotations and change the targetPort from https to http
+
+Annotations to be added
+=======================
+service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
+service.beta.kubernetes.io/aws-load-balancer-connection-idle-timeout: "60"
+service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled: "true"
+service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:us-east-2:XXXXXXXX:certificate/XXXXXX-XXXXXXX-XXXXXXX-XXXXXXXX
+service.beta.kubernetes.io/aws-load-balancer-ssl-ports: https
+service.beta.kubernetes.io/aws-load-balancer-type: elb
+
+You need to change the targetPort for https to http in nginx ingress controller service as written below:-
+========================================================================================================
+Before:
+
+  ports:
+    - name: http
+      port: 80
+      protocol: TCP
+      targetPort: http
+    - name: https
+      port: 443
+      protocol: TCP
+      targetPort: https
+After:
+
+  ports:
+    - name: http
+      port: 80
+      protocol: TCP
+      targetPort: http
+    - name: https
+      port: 443
+      protocol: TCP
+      targetPort: 80
+
 ```
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/68efae05-a274-4dd2-a766-5147a3e8ec3d)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/6dae9b9f-b63d-4e2f-a5dc-814d2fb1d992)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/783c15dc-cd59-4793-895f-12314c95a465)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2f720593-8f23-48f4-9d84-ae5f907affb5)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/438ee91e-edbe-4ba5-8c09-e3cb262b670f)
+<br><br/>
+**Installation of ArgoCD**
+```
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+### Get password for ArgoCD
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath='{.data.password}' | base64 -d
+### Create Ingress Rule for ArgoCD
+vim ingress-rule.yaml
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: minimal-ingress
+  namespace: argocd
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"    ###  You can use this option for this particular case for ArgoCD but not for all
+spec:
+#  ingressClassName: nginx
+  rules:
+  - host: argocd.singhritesh85.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: argocd-server   ### Provide your service Name
+            port:
+              number: 80 
+
+kubectl apply -f ingress-rule.yaml
+```
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/8a6ff78c-fea3-41da-9760-42fb684e2541)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b1b9a3a7-74d2-4168-ad32-715667aad231)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/6a06bd33-c276-42ac-b3f7-71fb576d55fa)
+<br><br/>
+**Change admin user password in ArgoCD**
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/74fb4fee-de94-48e1-ae3a-86d4a7f18ea9)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/63c56019-559f-45fa-b25c-dedd4b882072)
+<br><br/>
+**Install ArgoCD cli**
+```
+curl -sSL -o argocd-linux-amd64 https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
+sudo install -m 555 argocd-linux-amd64 /usr/local/bin/argocd
+rm argocd-linux-amd64
+```
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/9c79fb96-9e91-4a52-8d23-8aeebede3a0f)
+
