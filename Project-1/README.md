@@ -197,5 +197,10 @@ sudo systemctl enable nexus.service
 <br><br/>
 Create two repositories in nexus with the name maven-release and maven-snapshot. 
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/422150d3-8751-49ee-bb85-616d1730aee3)
+<br><br>/
+Create pipeline syntax for nexus as shown in the screenshot below
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/576d0393-6f9e-4458-adcf-db78bcfe54af)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/a32055c7-7d19-4f60-9bfc-22947400999f)
 
 
