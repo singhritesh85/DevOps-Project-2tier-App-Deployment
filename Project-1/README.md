@@ -329,5 +329,10 @@ rm argocd-linux-amd64
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5f6f1a21-7d12-44ad-9940-f5e702ed306b)
 
 <br><br/>
-**Create Jenkins Job using the Jenkinsfile present in this project directory**
+**Create Jenkins Job using the Jenkinsfile present in this project directory, run the jenkins job and provide parameters as shown in screenshot below**
 <br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/6d1ef134-a290-4c7e-a959-564c8819b7e2)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5949941d-3677-4e11-8760-47dda1151003)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/182cfd1e-012f-4d9b-a757-c1c72b0e0808)
+<br><br/>
+Create Ingress for service created and 
