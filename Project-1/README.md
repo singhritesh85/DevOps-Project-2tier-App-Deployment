@@ -50,6 +50,7 @@ mv apache-maven-3.9.6/ apache-maven
 
 curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin v0.38.3
 ```
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5ecc5ab7-440a-4bd2-bc52-91fe117c4ecb)
 <br><br/>
 **Configure Sendmail with SES on Jenkins Slave Node**
 ```
@@ -201,6 +202,5 @@ Create two repositories in nexus with the name maven-release and maven-snapshot.
 Create pipeline syntax for nexus as shown in the screenshot below
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/576d0393-6f9e-4458-adcf-db78bcfe54af)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/a32055c7-7d19-4f60-9bfc-22947400999f)
 
 
