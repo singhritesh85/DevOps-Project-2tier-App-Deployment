@@ -427,3 +427,7 @@ Create Ingress for service created and do the entry in Route53 to create reccord
 **Check the entry in database jwt as shown in the screenshot below**
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/47001a28-f274-427a-ab7c-c29565c1bf42)
 
+
+
+
+**Reference** = https://github.com/Ashoksana/aws-rds-java.git
