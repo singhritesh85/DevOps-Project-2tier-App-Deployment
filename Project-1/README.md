@@ -393,7 +393,7 @@ pipeline{
         }
         stage("Deployment"){
             steps{
-                sh 'argocd login argocd.singhritesh85.com --username admin --password Admin123 --skip-test-tls  --grpc-web'
+                sh 'argocd login argocd.singhritesh85.com --username adxxn --password AdXXXXXX --skip-test-tls  --grpc-web'
                 sh 'argocd app create demo5 --project default --repo https://github.com/singhritesh85/helm-repo-for-ArgoCD.git --path ./folo --dest-namespace teto --dest-server https://kubernetes.default.svc --helm-set service.port=80 --helm-set image.repository=${REPO_NAME} --helm-set image.tag=${TAG_NAME} --helm-set replicaCount=${REPLICA_COUNT} --upsert'
                 sh 'argocd app sync demo5'
             }
