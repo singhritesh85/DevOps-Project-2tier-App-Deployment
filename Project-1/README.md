@@ -150,13 +150,49 @@ tar -xvf nexus-3.67.1-01-java8-unix.tar.gz
 mv nexus-3.67.1-01 nexus
 useradd -s /bin/bash -m nexus
 passwd nexus
+
+# Provide sudo privilege to nexus 
 visudo
 
+### Allow root to run any commands anywhere
+root    ALL=(ALL)        ALL
+nexus   ALL=(ALL)        NOPASSWD:ALL
+
+chown -R nexus:nexus /opt/nexus
+chown -R nexus:nexus /opt/sonatype
+
+cd /opt/nexus/bin/
+ls
+vim /opt/nexus/bin/nexus.rc
+run_as_user="nexus"
+
+./nexus start
+./nexus status
+
+#Run nexus as a service
+vim /etc/systemd/system/nexus.service
+
+[Unit]
+Description=nexus service
+After=network.target
+  
+[Service]
+Type=forking
+LimitNOFILE=65536
+ExecStart=/etc/init.d/nexus start
+ExecStop=/etc/init.d/nexus stop 
+User=nexus
+Restart=on-abort
+TimeoutSec=600
+  
+[Install]
+WantedBy=multi-user.target
 
 
-chown -R /opt/nexus
-ls 
+sudo systemctl start nexus.service
+sudo systemctl enable nexus.service
 ```
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/718ab425-78a2-4318-85ef-7b264f51ea9a)
 
 
 
