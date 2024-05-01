@@ -326,6 +326,8 @@ curl -sSL -o argocd-linux-amd64 https://github.com/argoproj/argo-cd/releases/lat
 sudo install -m 555 argocd-linux-amd64 /usr/local/bin/argocd
 rm argocd-linux-amd64
 ```
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/9c79fb96-9e91-4a52-8d23-8aeebede3a0f)
-<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5f6f1a21-7d12-44ad-9940-f5e702ed306b)
 
+<br><br/>
+**Create Jenkins Job using the Jenkinsfile present in this project directory**
+<br><br/>
