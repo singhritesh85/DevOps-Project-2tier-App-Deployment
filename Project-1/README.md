@@ -430,5 +430,6 @@ Create Ingress for service created and do the entry in Route53 to create reccord
 
 
 
-**Reference** = https://ashok198510.hashnode.dev/cloud-native-two-tier-application-deployment-with-eks-tomcat-and-rds-in-aws <br><br/>
-                https://github.com/Ashoksana/aws-rds-java.git
+**References** 
+1. https://ashok198510.hashnode.dev/cloud-native-two-tier-application-deployment-with-eks-tomcat-and-rds-in-aws <br><br/>
+2. https://github.com/Ashoksana/aws-rds-java.git
