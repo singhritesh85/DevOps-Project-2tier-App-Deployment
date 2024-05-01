@@ -137,6 +137,13 @@ mv sonarqube-9.9.5.90363/ sonarqube
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/bf31778a-882d-45e8-851b-d54f2cf84774)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b3c0710d-a070-4b84-96e8-fb04746c8c78)
 <br><br/>
+Creation of security token and webhook in SonarQube.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e0f4ac34-7c2e-4566-8752-aa51bf668ad4)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/9fa1b738-c10a-4b79-ac9e-dda2aeaf973a)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b9eab98b-382d-4700-9753-def8100031b9)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/415e4265-8101-4880-8f22-fbbf9245d46d)
+<br><br/>
 **Nexus Installation**
 <br><br/>
 ```
@@ -198,7 +205,7 @@ sudo systemctl enable nexus.service
 <br><br/>
 Create two repositories in nexus with the name maven-release and maven-snapshot. 
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/422150d3-8751-49ee-bb85-616d1730aee3)
-<br><br>/
+<br><br/>
 Create pipeline syntax for nexus as shown in the screenshot below
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/576d0393-6f9e-4458-adcf-db78bcfe54af)
