@@ -327,4 +327,5 @@ sudo install -m 555 argocd-linux-amd64 /usr/local/bin/argocd
 rm argocd-linux-amd64
 ```
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/9c79fb96-9e91-4a52-8d23-8aeebede3a0f)
+<br><br/>
 
