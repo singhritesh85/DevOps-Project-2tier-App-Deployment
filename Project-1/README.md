@@ -208,6 +208,8 @@ Below Srennshot shows the different EC2 Instances, LoadBalancers and TargetGroup
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/eb94f07d-edc8-435c-81f6-a2fce269cdc6)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/00057fed-66ef-49ff-94e0-04f82fd97b16)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/ab53c220-4ac1-42d4-99b2-65211ad77f61)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f6062fe6-a725-4ff1-ac55-535be0037ed2)
+
 <br><br/>
 Below screenshot shows the Route53 entry 
 <br><br/>
