@@ -202,5 +202,7 @@ Create two repositories in nexus with the name maven-release and maven-snapshot.
 Create pipeline syntax for nexus as shown in the screenshot below
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/576d0393-6f9e-4458-adcf-db78bcfe54af)
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/eb94f07d-edc8-435c-81f6-a2fce269cdc6)
 
 
