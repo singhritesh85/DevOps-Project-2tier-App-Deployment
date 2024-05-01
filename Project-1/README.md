@@ -148,6 +148,13 @@ cd /opt
 wget https://download.sonatype.com/nexus/3/nexus-3.67.1-01-java8-unix.tar.gz
 tar -xvf nexus-3.67.1-01-java8-unix.tar.gz
 mv nexus-3.67.1-01 nexus
+useradd -s /bin/bash -m nexus
+passwd nexus
+visudo
+
+
+
+chown -R /opt/nexus
 ls 
 ```
 
