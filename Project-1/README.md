@@ -386,7 +386,7 @@ pipeline{
                       docker tag demoimage:1.01 ${REPO_NAME}:${TAG_NAME}
                       trivy image --exit-code 0 --severity MEDIUM,HIGH ${REPO_NAME}:${TAG_NAME}
                       trivy image --exit-code 1 --severity CRITICAL ${REPO_NAME}:${TAG_NAME}
-                      aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 027330342406.dkr.ecr.us-east-2.amazonaws.com
+                      aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 027XXXXXXXX406.dkr.ecr.us-east-2.amazonaws.com
                       docker push ${REPO_NAME}:${TAG_NAME}
                 '''
             }
