@@ -17,7 +17,7 @@
 ```
 
 <br><br/>
-Steps to you terraform command
+Steps to use terraform command
 <br><br/>
 ```
 1. terraform init         ### Initialize working directory
