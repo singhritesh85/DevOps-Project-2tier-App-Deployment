@@ -414,7 +414,7 @@ pipeline{
 ```
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/6d1ef134-a290-4c7e-a959-564c8819b7e2)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/fc942e40-a2ab-46dd-af80-44fd0d0b08d1)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/316d24ba-930d-4119-9a02-cb5373f00140)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/182cfd1e-012f-4d9b-a757-c1c72b0e0808)
 <br><br/>
 Create Ingress for service created and do the entry in Route53 to create reccord set. Access the Application using the URL created.
