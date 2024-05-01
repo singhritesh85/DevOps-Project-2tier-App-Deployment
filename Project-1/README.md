@@ -232,7 +232,7 @@ Below screenshot shows the RDS two DB Instances with PostgreSQL and MySQL.
 <br><br/>
 **Connect with MySQL DB Instance and create database and table as shown in the screenshot below.**
 <br><br/>
-**As Jenkins-Slave and MySQL RDS are present in different VPC so to connect MySQL RDS from Jenkins-Slave we should create VPC peering between the two VPCs.** 
+**As Jenkins-Slave and MySQL RDS are present in different VPC, so to connect MySQL RDS from Jenkins-Slave we should create VPC peering between the two VPCs.** 
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/854b1803-b60a-4cc3-9944-bbff64b21f82)
 **Connect with PostgreSQL DB Instance and create database and user as shown in the screenshot below.**
