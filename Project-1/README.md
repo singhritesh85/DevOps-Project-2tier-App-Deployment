@@ -141,6 +141,9 @@ Creation of security token and webhook in SonarQube.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e0f4ac34-7c2e-4566-8752-aa51bf668ad4)
 
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/87de029c-d904-45a9-8d87-bda39523e21b)
+
+
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b9eab98b-382d-4700-9753-def8100031b9)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/415e4265-8101-4880-8f22-fbbf9245d46d)
 <br><br/>
