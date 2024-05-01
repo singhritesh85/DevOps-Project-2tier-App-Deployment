@@ -430,6 +430,7 @@ Create Ingress for service created and do the entry in Route53 to create reccord
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/47001a28-f274-427a-ab7c-c29565c1bf42)
 
 **Email Notification for Execution of Jenkins Job and its Successful completion.**
+<br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/3856938a-43f5-4ffa-8983-25e933eea812)
 
 
