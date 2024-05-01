@@ -335,4 +335,13 @@ rm argocd-linux-amd64
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5949941d-3677-4e11-8760-47dda1151003)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/182cfd1e-012f-4d9b-a757-c1c72b0e0808)
 <br><br/>
-Create Ingress for service created and 
+Create Ingress for service created and do the entry in Route53 to create reccord set. Access the Application using the URL created.
+
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/815dfdb1-cb25-4ae3-b2d2-176f3fc01df9)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/4513a36e-51a6-4297-91af-9fc1bb32e3f3)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/ebc5e3ec-a1c2-422a-9ec7-f62ff9e2dbf7)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/20d55af2-1435-4e54-b066-09f46f2468cf)
+
+**Check the entry in database jwt as shown in the screenshot below**
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/47001a28-f274-427a-ab7c-c29565c1bf42)
+
