@@ -217,10 +217,12 @@ Below screenshot shows the RDS two DB Instances with PostgreSQL and MySQL.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/baa6c8c4-8911-496f-bb0b-8e1d88f892c1)
 <br><br/>
-**Connect with DB Instance and create database and table as shown in the screenshot below.**
+**Connect with MySQL DB Instance and create database and table as shown in the screenshot below.**
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/854b1803-b60a-4cc3-9944-bbff64b21f82)
+**Connect with PostgreSQL DB Instance and create database and user as shown in the screenshot below.**
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/c39ed54e-643a-4eb1-a3ff-a17842a70564)
 <br><br/>
 **PostgreSQL and MySQL has been used for SonarQube and 2-tier Application repectively.**
 <br><br/>
+
