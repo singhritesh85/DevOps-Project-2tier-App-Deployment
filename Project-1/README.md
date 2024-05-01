@@ -109,6 +109,7 @@ Install 1. Nexus Artifact Uploader 2. SonarQube Scanner for Jenkins and 3. Pipel
 **Configure SonarQube Scanner**
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/59d7a00d-36fe-409b-8440-ea308b4d274d)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b2082d7a-e566-4b18-8f76-aef23957a989)
 <br><br/>
 **Configure Email Notification in Jenkins**
 <br><br/>
