@@ -11,7 +11,7 @@ First of all launch four EC2 Instances, two EC2 Instances with t3.micro instance
 <br><br/>
 Jenkins-Master, Jenkins-Slave, SonarQube-Server, Nexus-Server and PostgreSQL RDS are present in one VPC and EKS with MySQL RDS are present in another VPC.
 <br><br/>
-Launch two RDS one with PostgreSQL and another one with MySQL. The PostgreSQL RDS will be used for SonarQube and MySQL RDS will be used for two-tier Application deployment.
+Launch two RDS one with PostgreSQL and another one with MySQL. The PostgreSQL RDS will be used for SonarQube and MySQL RDS will be used for two-tier Application deployment. These two RDS are publicly not accessible.
 <br><br/>
 **Jenkins Installation**
 <br><br/>
