@@ -118,6 +118,10 @@ variable "monitoring_role_arn" {
   description = "ARN of IAM Role to enable enhanced monitoring"
   type = string
 }
+variable "enabled_cloudwatch_logs_exports" {
+  description = "Which type of Logs to enable"
+  type = list
+}
 variable "env" {
   description = "Provide the Environment into which the RDS DB Instance to be launched"
   type = list
