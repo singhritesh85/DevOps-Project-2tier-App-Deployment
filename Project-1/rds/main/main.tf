@@ -22,7 +22,7 @@ module "rds" {
   skip_final_snapshot = var.skip_final_snapshot[0]
 #  copy_tags_to_snapshot = var.copy_tags_to_snapshot
   availability_zone = var.availability_zone
-  publicly_accessible = var.publicly_accessible
+  publicly_accessible = var.publicly_accessible[1]
   vpc_security_group_ids = var.vpc_security_group_ids
 #  read_replica_vpc_security_group_ids = var.read_replica_vpc_security_group_ids
 #  backup_retention_period = var.backup_retention_period
