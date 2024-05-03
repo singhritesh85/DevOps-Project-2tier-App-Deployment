@@ -25,7 +25,7 @@ Generate the command using Helm to install the NewRelic Agent on Kubernetes Clus
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b3f43927-582d-487a-bb35-9a8a3d766a3e)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/89aed8d3-8a1f-4d7b-a8f5-ff19c35bf8da)
 <br><br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/669d6c43-d7a0-41bd-8bb6-facf36ca505b)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/3f000351-d844-4746-808e-0a1030c732f9)
 <br><br/>
 Create Alert for EKS Cluster eks-demo-cluster-dev for that click on Manage Alerts as shown in screenshot below.
 <br><br/>
@@ -33,4 +33,4 @@ Create Alert for EKS Cluster eks-demo-cluster-dev for that click on Manage Alert
 <br><br/>
 I am creating an Alert for Available Pods are less than desired pods as shown in the screenshots below.
 <br><br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/669d6c43-d7a0-41bd-8bb6-facf36ca505b)
+
