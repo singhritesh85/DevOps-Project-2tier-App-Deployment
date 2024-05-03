@@ -12,7 +12,7 @@ engine_version = "14.9"
 username = "postgres"
 password = "Sonar123"
 parameter_group_name = "default.postgres14"
-
+db_subnet_group_name = "postgresql-subnetgroup"
 
 
 enabled_cloudwatch_logs_exports = ["postgresql", "upgrade"]  
@@ -28,7 +28,7 @@ engine_version = "5.7.44"
 username = "admin"
 password = "Admin123"
 parameter_group_name = "default.mysql5.7"  
-
+db_subnet_group_name = "mysql-subnetgroup"
 
 
 enabled_cloudwatch_logs_exports = ["audit", "error", "general", "slowquery"] 
