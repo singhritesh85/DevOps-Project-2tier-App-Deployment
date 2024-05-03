@@ -46,7 +46,7 @@ resource "aws_db_instance" "dbinstance" {
   vpc_security_group_ids = var.vpc_security_group_ids
   db_subnet_group_name = aws_db_subnet_group.dbsubnet.name
 ###  parameter_group_name = aws_db_parameter_group.dbparametedgroup.name
-  publicly_accessible = var.publicly_accessible[1]
+  publicly_accessible = var.publicly_accessible
 #  backup_retention_period = var.backup_retention_period[7]   ##Choose the number of days that RDS should retain automatic backups for this instance.
 #  backup_window = "09:46-10:16"            ##(The daily time range (in UTC) during which automated backups are created if they are enabled. Example: "09:46-10:16". Must not overlap with maintenance window)
 #  delete_automated_backups = true   ##(Specifies whether to remove automated backups immediately after the DB instance is deleted, default is true)
