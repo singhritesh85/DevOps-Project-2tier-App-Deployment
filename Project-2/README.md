@@ -1,6 +1,10 @@
 ### Monitoring of end-to-end infrastructure and Application for Project-1
 You can Consider this project as continuation of Project-1. In this project I am explaining how to perform monitoring of Infrastructure of Project-1 and Application Performance Monitoring(APM) using NewRelic and CloudWatch.
 
+<br><br/>
+I have created EKS Cluster with two nodes of instance type **t3.medium**. 
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f43a0b0c-efd9-48e5-8b0f-8b2d159b59b5)
+<br><br/>
 **Installation of NewRelic Agent for EKS Cluster using Helm**
 <br><br/>
 Login to NewRelic Console and go to Kubernetes as a Data Source which is shown in screenshot below.
@@ -17,6 +21,7 @@ Generate the command using Helm to install the NewRelic Agent on Kubernetes Clus
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/c12a6ba5-1224-47c6-82e7-2dd1ec9662a9)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d3946088-d261-4cc7-bd04-a50f8ead3071)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5a5e276e-6725-45f4-8962-a8ccec0cd2fa)
+<br><br/>
 
 
 
