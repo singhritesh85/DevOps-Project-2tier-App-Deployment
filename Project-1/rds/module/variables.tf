@@ -1,6 +1,9 @@
 variable "identifier" {
 
 }
+variable "db_subnet_group_name" {
+
+}
 variable "subnet_ids_for_subnet_group" {
 
 }
