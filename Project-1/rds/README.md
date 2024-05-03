@@ -15,7 +15,7 @@ parameter_group_name = "default.postgres14"
 
 
 
-enabled_cloudwatch_logs_exports = ["postgresql", "upgrade"]  in file rds/module/rds.tf
+enabled_cloudwatch_logs_exports = ["postgresql", "upgrade"]  
 ```  
 <br><br/>
 Select the identifier as dbinstance-2, rds_db_name as demodb, engine as mysql, engine_version as 5.7.44, username as admin, password as Admin123, parameter_group_name as default.mysql5.7 and change the value enabled_cloudwatch_logs_exports to ["audit", "error", "general", "slowquery"].
@@ -31,7 +31,7 @@ parameter_group_name = "default.mysql5.7"
 
 
 
-enabled_cloudwatch_logs_exports = ["audit", "error", "general", "slowquery"]  in file rds/module/rds.tf  
+enabled_cloudwatch_logs_exports = ["audit", "error", "general", "slowquery"] 
 ```
 <br><br/>
 **Change the key in backend.tf while creating different RDS.**
