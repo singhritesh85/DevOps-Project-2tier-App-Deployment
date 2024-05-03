@@ -19,7 +19,7 @@ module "rds" {
   multi_az = var.multi_az[0]
 #  read_replica_multi_az = var.read_replica_multi_az
 #  final_snapshot_identifier = var.final_snapshot_identifier
-  skip_final_snapshot = var.skip_final_snapshot
+  skip_final_snapshot = var.skip_final_snapshot[0]
 #  copy_tags_to_snapshot = var.copy_tags_to_snapshot
   availability_zone = var.availability_zone
   publicly_accessible = var.publicly_accessible
