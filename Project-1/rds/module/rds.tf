@@ -37,8 +37,8 @@ resource "aws_db_instance" "dbinstance" {
   db_name                 = var.rds_db_name
   username             = var.username
   password             = var.password
-  parameter_group_name = var.parameter_group_name[0]           ### var.parameter_group_name[1] use for postgresql
-  multi_az             = var.multi_az[0]
+  parameter_group_name = var.parameter_group_name           ### var.parameter_group_name[1] use for postgresql
+  multi_az             = var.multi_az
 ###  final_snapshot_identifier = var.final_snapshot_identifier ##To enable it skip_final_snapshot should be disabled
   skip_final_snapshot  = var.skip_final_snapshot[0]   ##when skip_final_snapshot is true then final_snapshot_identifier should be commented
 ###  copy_tags_to_snapshot = var.copy_tags_to_snapshot[0]   ##You can enable it when final_snapshot_identifier is enable i.e. when final snapshot is enabled
