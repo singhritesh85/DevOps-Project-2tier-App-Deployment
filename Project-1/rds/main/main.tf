@@ -32,5 +32,5 @@ module "rds" {
   monitoring_role_arn = var.monitoring_role_arn
   enabled_cloudwatch_logs_exports = var.enabled_cloudwatch_logs_exports
 
-  env = var.env
+  env = var.env[0]
 }
