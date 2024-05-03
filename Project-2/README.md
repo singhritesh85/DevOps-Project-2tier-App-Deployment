@@ -11,7 +11,6 @@ Generate the command using Helm to install the NewRelic Agent on Kubernetes Clus
 <br><br/>
 **Enter the License Key as shown in the screenshot below.**
 <br><br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/aa24605f-589a-4d3f-9bca-ce38039db58f)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2aaf7348-7e22-46b0-b26c-eaf27343e012)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/70dbabfc-2d7c-4a1a-9453-6337fcac7027)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/1650d876-72ec-4966-8f43-782bb9b9f4bb)
