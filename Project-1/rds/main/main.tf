@@ -15,8 +15,8 @@ module "rds" {
   rds_db_name = var.rds_db_name
   username = var.username
   password = var.password
-  parameter_group_name = var.parameter_group_name
-  multi_az = var.multi_az
+  parameter_group_name = var.parameter_group_name[0]
+  multi_az = var.multi_az[0]
 #  read_replica_multi_az = var.read_replica_multi_az
 #  final_snapshot_identifier = var.final_snapshot_identifier
   skip_final_snapshot = var.skip_final_snapshot
