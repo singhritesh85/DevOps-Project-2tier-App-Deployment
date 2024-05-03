@@ -20,6 +20,7 @@ Generate the command using Helm to install the NewRelic Agent on Kubernetes Clus
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/1650d876-72ec-4966-8f43-782bb9b9f4bb)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/c12a6ba5-1224-47c6-82e7-2dd1ec9662a9)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d3946088-d261-4cc7-bd04-a50f8ead3071)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5a5e276e-6725-45f4-8962-a8ccec0cd2fa)
 
 
 
