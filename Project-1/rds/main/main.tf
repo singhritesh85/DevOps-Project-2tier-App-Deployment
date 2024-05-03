@@ -29,6 +29,7 @@ module "rds" {
   kms_key_id = var.kms_key_id
 #  read_replica_kms_key_id = var.read_replica_kms_key_id
   monitoring_role_arn = var.monitoring_role_arn
+  enabled_cloudwatch_logs_exports = var.enabled_cloudwatch_logs_exports
 
   env = var.env
 }
