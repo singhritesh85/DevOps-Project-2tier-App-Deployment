@@ -34,4 +34,6 @@ Create Alert for EKS Cluster eks-demo-cluster-dev for that click on Manage Alert
 I am creating an Alert for Available Pods are less than desired pods as shown in the screenshots below.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/14069339-a21d-44a1-88c9-43565caf0141)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/cc5674ff-213b-4e4a-950e-e2ed4eb3aad0)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2994fc26-9ff6-4424-baa8-650d3b40def9)
 
