@@ -30,5 +30,6 @@
   kms_key_id = "arn:aws:kms:us-east-2:027XXXXXXX06:key/20XXXXf3-aXXc-4XXd-9XX4-24XXXXXXXXX17"
 #  read_replica_kms_key_id = "arn:aws:kms:us-east-2:027XXXXXXX06:key/20XXXXXXf3-aXXc-4XXd-9XX4-24XXXXXXXXXX17"  ### I am not using any read replica here.
   monitoring_role_arn = "arn:aws:iam::027XXXXXXXXXXXX06:role/rds-monitoring-role"
+  enabled_cloudwatch_logs_exports = ["audit", "error", "general", "slowquery"]         ### ["postgresql", "upgrade"]   for PostgreSQL 
 
   env = ["dev", "stage", "prod"]
