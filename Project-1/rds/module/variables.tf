@@ -1,6 +1,9 @@
 variable "identifier" {
 
 }
+variable "subnet_ids_for_subnet_group" {
+
+}
 #variable "read_replica_identifier" {
 
 #}
