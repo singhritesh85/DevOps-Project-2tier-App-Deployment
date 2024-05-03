@@ -6,6 +6,10 @@ variable "identifier" {
   description = "Provide the DB Instance Name"
   type = string
 }
+variable "db_subnet_group_name" {
+  description = "Provide the Name for DB Subnet Group"
+  type = string
+}
 variable "subnet_ids_for_subnet_group" {
   description = "Provide Subnet IDs for Subnet Group"
   type = list
