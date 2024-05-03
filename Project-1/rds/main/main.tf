@@ -6,11 +6,11 @@ module "rds" {
   allocated_storage = var.allocated_storage
   max_allocated_storage = var.max_allocated_storage
 #  read_replica_max_allocated_storage = var.read_replica_max_allocated_storage
-  storage_type = var.storage_type
+  storage_type = var.storage_type[0]
 #  read_replica_storage_type = var.read_replica_storage_type
   engine = var.engine[0]             ### var.engine[3]  use for postgresql
-  engine_version = var.engine_version
-  instance_class = var.instance_class
+  engine_version = var.engine_version[0]
+  instance_class = var.instance_class[0]
 #  read_replica_instance_class = var.read_replica_instance_class
   rds_db_name = var.rds_db_name
   username = var.username
