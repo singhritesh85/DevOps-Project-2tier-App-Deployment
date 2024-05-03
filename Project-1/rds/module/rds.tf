@@ -61,7 +61,7 @@ resource "aws_db_instance" "dbinstance" {
   monitoring_interval = 5 ##The interval, in seconds, between points when Enhanced Monitoring metrics are collected for the DB instance. To disable collecting Enhanced Monitoring metrics, specify 0. The default is 0. Valid Values: 0, 1, 5, 10, 15, 30, 60.
   enabled_cloudwatch_logs_exports = var.enabled_cloudwatch_logs_exports     ###    ["audit", "error", "general", "slowquery"] for MySQL      ### ["postgresql", "upgrade"]  Use for PostgreSQL
   tags = {         ##use tags as required
-    Environment = "Dev"
+    Environment = var.env
   }
 }
 
