@@ -85,8 +85,7 @@ variable "kms_key_id" {
 variable "monitoring_role_arn" {
 
 }
-variable "enabled_cloudwatch_logs_exports"
-{
+variable "enabled_cloudwatch_logs_exports" {
 
 }
 variable "env" {
