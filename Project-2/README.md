@@ -28,5 +28,6 @@ Generate the command using Helm to install the NewRelic Agent on Kubernetes Clus
 Create Alert for EKS Cluster eks-demo-cluster-dev for that click on Manage Alerts as shown in screenshot below.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0e6eb344-041e-4950-b072-c3cc17d000ea)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/669d6c43-d7a0-41bd-8bb6-facf36ca505b)
 
 
