@@ -10,7 +10,7 @@ module "rds" {
   storage_type = var.storage_type[0]
 #  read_replica_storage_type = var.read_replica_storage_type
   engine = var.engine[0]             ### var.engine[3]  use for postgresql
-  engine_version = var.engine_version[0]
+  engine_version = var.engine_version[0]       ### var.engine_version[11]  use for postgresql
   instance_class = var.instance_class[0]
 #  read_replica_instance_class = var.read_replica_instance_class
   rds_db_name = var.rds_db_name
