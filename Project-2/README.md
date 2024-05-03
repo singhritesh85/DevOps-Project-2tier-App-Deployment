@@ -36,4 +36,6 @@ I am creating an Alert for Available Pods are less than desired pods as shown in
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/14069339-a21d-44a1-88c9-43565caf0141)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2994fc26-9ff6-4424-baa8-650d3b40def9)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d566fae9-8412-47ee-b479-72c5c3c1a01d)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/8c4968d1-1445-4f0d-ad49-98704493c05c)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/8c120858-1a2a-411a-81d2-14a7a7e93634)
 
