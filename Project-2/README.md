@@ -31,11 +31,9 @@ Create Alert for EKS Cluster eks-demo-cluster-dev for that click on Manage Alert
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0e6eb344-041e-4950-b072-c3cc17d000ea)
 <br><br/>
-I am creating an Alert for Available Pods are less than desired pods as shown in the screenshots below.
+I am creating an Alert for %CPU Usage and %Memory Usage for desired EKS Cluster eks-demo-cluster-dev as show in the screenshots below.
 <br><br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/14069339-a21d-44a1-88c9-43565caf0141)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2994fc26-9ff6-4424-baa8-650d3b40def9)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d566fae9-8412-47ee-b479-72c5c3c1a01d)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/8c4968d1-1445-4f0d-ad49-98704493c05c)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/8c120858-1a2a-411a-81d2-14a7a7e93634)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/7daf50e3-3890-486c-8cef-27d18dcc2d60)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/ff144b8b-96df-4078-bb90-a9bf1c90604e)
+
 
