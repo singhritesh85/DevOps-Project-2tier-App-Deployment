@@ -30,10 +30,10 @@ resource "aws_db_instance" "dbinstance" {
   identifier           = var.identifier
   allocated_storage    = var.allocated_storage
   max_allocated_storage = var.max_allocated_storage
-  storage_type         = var.storage_type[0]
+  storage_type         = var.storage_type
   engine               = var.engine
-  engine_version       = var.engine_version[0]      ### var.engine_version[11] use for postgresql
-  instance_class       = var.instance_class[0]
+  engine_version       = var.engine_version      ### var.engine_version[11] use for postgresql
+  instance_class       = var.instance_class
   db_name                 = var.rds_db_name
   username             = var.username
   password             = var.password
