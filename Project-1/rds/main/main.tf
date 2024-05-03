@@ -2,6 +2,7 @@ module "rds" {
   source = "../module"
   count = var.db_instance_count
   identifier = var.identifier                            ###  identifier = "${var.identifier}-${count.index + 1}
+  subnet_ids_for_subnet_group = var.subnet_ids_for_subnet_group
 #  read_replica_identifier = var.read_replica_identifier  ###  read_replica_identifier = "${var.read_replica_identifier}-${count.index + 1}
   allocated_storage = var.allocated_storage
   max_allocated_storage = var.max_allocated_storage
