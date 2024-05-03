@@ -2,7 +2,8 @@
 
   db_instance_count = 1
   region = "us-east-2"
-  identifier = "dbinstance-1"                        
+  identifier = "dbinstance-1"    
+  subnet_ids_for_subnet_group = ["subnet-7cXXXXX07", "subnet-c9XXXXXX84", "subnet-adXXXXXXc5"]  ##You should change this value as per your vpc subnet
 #  read_replica_identifier = "dbinstance-readreplica-1"
   allocated_storage = 20
   max_allocated_storage = 100
