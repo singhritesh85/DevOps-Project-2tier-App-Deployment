@@ -34,7 +34,7 @@ Create Alert for EKS Cluster eks-demo-cluster-dev for that click on Manage Alert
 I am creating an Alert for %CPU Usage and %Memory Usage for desired EKS Cluster eks-demo-cluster-dev as show in the screenshots below.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/7daf50e3-3890-486c-8cef-27d18dcc2d60)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/ff144b8b-96df-4078-bb90-a9bf1c90604e)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/cd9ad0a2-fb6d-4408-83c9-99ffa45e3b49)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/cf34346a-a80d-41e7-8d12-f52dfaad0c23)
 
 
