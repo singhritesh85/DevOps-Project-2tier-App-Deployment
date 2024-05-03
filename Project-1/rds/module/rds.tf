@@ -15,7 +15,7 @@
 #  }
 #}
 resource "aws_db_subnet_group" "dbsubnet" {
-  name       = var.db_subnet_group_name      ### "subnet-group16042024"
+  name = var.db_subnet_group_name      ### "subnet-group16042024"
   description = "RDS DB Subnet Group"
   subnet_ids = var.subnet_ids_for_subnet_group    ### ["subnet-7cXXXXX07", "subnet-c9XXXXXX84", "subnet-adXXXXXXc5"]  ##You should change this value as per your vpc subnet
 }
