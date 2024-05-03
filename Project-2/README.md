@@ -35,5 +35,6 @@ I am creating an Alert for %CPU Usage and %Memory Usage for desired EKS Cluster 
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/7daf50e3-3890-486c-8cef-27d18dcc2d60)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/ff144b8b-96df-4078-bb90-a9bf1c90604e)
+![Uploading image.png…]()
 
 
