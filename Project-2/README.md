@@ -41,7 +41,10 @@ Create Alert for EKS Cluster eks-demo-cluster-dev for that click on Alerts optio
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/179b07cb-6707-43b2-8921-d5f8c053649b)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5cc8c4d4-3b6d-4add-ad88-c4e4ee96ed7d)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/c5a87ad0-b774-4420-89c6-8d927a35ebe3)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/788e74e9-930d-44b6-aecf-e3f33f56f52a)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/37b0fcca-4fb6-4ea3-b026-67c4f7963a0b)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/44cedc4d-7500-4a5a-ac67-f6263725e40a)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0917e436-88aa-4da3-938a-5e40433158e3)
+
 
 
 
