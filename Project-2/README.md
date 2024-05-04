@@ -56,7 +56,9 @@ Create Another Alert Condition
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/6d909f51-5b31-4d8a-9aeb-2f3bd7caa283)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/153c268b-b2f3-4722-9a6e-934f474c0f6d)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/03ab056d-0eea-49da-8640-58935c26e044)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/81facf54-5bfa-4c05-a6c5-b4ecb3e13660)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/eb5ad2e7-fe7c-4aa3-b15a-dc65b4514bbf)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/231ac824-2816-4b11-909d-91e5e45aaab8)
+
 
 
 
