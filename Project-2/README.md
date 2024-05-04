@@ -13,7 +13,7 @@ Login to NewRelic Console and go to Kubernetes as a Data Source which is shown i
 Generate the command using Helm to install the NewRelic Agent on Kubernetes Cluster.
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/4c7cb56a-8779-46a5-803a-0e151fc5a7db)
 <br><br/>
-**Enter the License Key as shown in the screenshot below.**
+**Create the License Key as shown in the screenshot below.**
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2aaf7348-7e22-46b0-b26c-eaf27343e012)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/70dbabfc-2d7c-4a1a-9453-6337fcac7027)
@@ -27,8 +27,29 @@ Generate the command using Helm to install the NewRelic Agent on Kubernetes Clus
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/3f000351-d844-4746-808e-0a1030c732f9)
 <br><br/>
-Create Alert for EKS Cluster eks-demo-cluster-dev for that click on Manage Alerts as shown in screenshot below.
+```
+Create Alert for EKS Cluster eks-demo-cluster-dev for that click on Alerts option in left side column as shown in screenshot below. There are four main components to create Alerts.
+1. Destination: It indicates the Group Email Id on which you want to send notification.
+2. Alert Policies: It is nothing but a combination of Alert Conditions of similar type.
+3. Alert Condition: It indicates the Alert Condition for which you set the threshold and if it will be crossed anotification will be sent on the destination.
+4. Workflow: It acts as a bridge between Alert Policies and the Destination.
+```
 <br><br/>
+**Here I am creating Alert Condition, Alert Policy, Alert Condition and Workflow from the Scratch.**
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/9799562e-c046-411d-b693-53e74c4d016f)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/179b07cb-6707-43b2-8921-d5f8c053649b)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5cc8c4d4-3b6d-4add-ad88-c4e4ee96ed7d)
+
+
+
+
+
+
+
+
+
+<br>           <br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0e6eb344-041e-4950-b072-c3cc17d000ea)
 <br><br/>
 I am creating an Alert for %CPU Usage and %Memory Usage for desired EKS Cluster eks-demo-cluster-dev as show in the screenshots below.
