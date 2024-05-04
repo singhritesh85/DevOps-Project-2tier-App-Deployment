@@ -78,4 +78,5 @@ When a critical issue arises in an organization, User should work on it as per t
 **Summary diagram for EKS Cluster eks-demo-cluster-dev is shown in the screenshot attached below.**
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/99a62c45-158f-4943-aad8-79307184a193)
-
+<br><br/>
+**I have explained APM (Application Performance Monitoring), RUM (Real Time User Monitoring) and Synthetic Monitoring below.**
