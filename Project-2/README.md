@@ -71,6 +71,8 @@ Now the User will Acknowledge it and work on this issue. As for this scenario, u
 After working on the issue, you need to close it.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2cbcb52d-c1ee-4bf8-9b37-6e0507a03f25)
+After Closing the issue you will get the notification on group Email ID as shown below.
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/360f415e-dc80-43d1-bec0-1e237e013470)
 
 
 
