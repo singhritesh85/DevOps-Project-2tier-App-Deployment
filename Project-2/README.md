@@ -79,30 +79,3 @@ When a critical issue arises in an organization, User should work on it as per t
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/99a62c45-158f-4943-aad8-79307184a193)
 
-
-
-
-
-
-
-
-<br>           <br/>
-<br>           <br/>
-<br>           <br/>
-<br>           <br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0e6eb344-041e-4950-b072-c3cc17d000ea)
-<br><br/>
-I am creating an Alert for %CPU Usage and %Memory Usage for desired EKS Cluster eks-demo-cluster-dev as show in the screenshots below.
-<br><br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/7daf50e3-3890-486c-8cef-27d18dcc2d60)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/cd9ad0a2-fb6d-4408-83c9-99ffa45e3b49)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/cf34346a-a80d-41e7-8d12-f52dfaad0c23)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/68064852-9421-46d5-8fc6-a03756634e23)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/cbe2a40a-d9bf-4ec5-8b31-e45d9b9873a6)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d111bd58-2c1a-4707-88e1-107638c417c7)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/a8fd97c5-d717-4845-bb91-6fb8e3e5458f)
-<br><br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d9aa8c82-50c3-42bb-b84d-9cef5af89e39)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/9f66964c-1cf9-49cd-8a39-bf3a2d869283)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/bf7e2ac3-0f41-4544-8a6b-c6fef9d57ba9)
-
