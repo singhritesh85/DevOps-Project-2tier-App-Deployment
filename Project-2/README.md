@@ -2,7 +2,7 @@
 You can Consider this project as continuation of Project-1. In this project I am explaining how to perform monitoring of Infrastructure of Project-1 and Application Performance Monitoring(APM) using NewRelic and CloudWatch.
 
 <br><br/>
-I have created EKS Cluster with two nodes of instance type **t3.medium**. 
+I have created EKS Cluster with two nodes of instance type **t3.small**. 
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f43a0b0c-efd9-48e5-8b0f-8b2d159b59b5)
 <br><br/>
 **Installation of NewRelic Agent for EKS Cluster using Helm**
