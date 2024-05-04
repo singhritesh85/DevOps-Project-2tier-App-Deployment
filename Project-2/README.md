@@ -59,6 +59,18 @@ Create Another Alert Condition
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e2ba6eaa-0e6f-4e0d-9f17-ead126730439)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/231ac824-2816-4b11-909d-91e5e45aaab8)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d45d03a5-34b5-4479-9057-1f912c831ab4)
+<br><br/>
+As the Memory Utilization crossed the threshold set So the Email Id mentioned in the Destination recieved the Email as shown in the Screenshot below.
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/ceac8746-07e9-4af2-b0a2-ab310b8ef58f)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/42dfa4eb-e8b4-4f3c-9f5c-9bc55c293d4b)
+<br><br/>
+Now the User will Acknowledge it and work on this issue. As for this scenario, user will increase the cluster size (by increasing the node count of the cluster) after discussing with the Reporting member of the organization. User can also increase the instance type of the existing EKS Cluster Node but the problem with that is it will delete all the existing nodes of the cluster and then create new nodes with increased instance type. 
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f41d0bd0-d7e9-4981-8adb-a99070589606)
+<br><br/>
+After working on the issue, you need to close it.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2cbcb52d-c1ee-4bf8-9b37-6e0507a03f25)
 
 
 
@@ -69,8 +81,9 @@ Create Another Alert Condition
 
 
 
-
-
+<br>           <br/>
+<br>           <br/>
+<br>           <br/>
 <br>           <br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0e6eb344-041e-4950-b072-c3cc17d000ea)
 <br><br/>
