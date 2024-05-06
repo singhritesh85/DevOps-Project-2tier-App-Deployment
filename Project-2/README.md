@@ -148,3 +148,4 @@ Created a policy for Synthetic Monitoring.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/1477652d-f73c-465a-906f-d0bdc6c8c7fa)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e9db5b4e-4536-4d25-a1c7-4157e6222ce9)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/7bdcc8bd-a6ba-4a8d-b96f-03041962a5f3)
