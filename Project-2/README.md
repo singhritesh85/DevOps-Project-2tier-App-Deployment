@@ -135,6 +135,5 @@ Apdex score = (70+(20/2))/100 = 0.8.
 <br><br/>
 The same result I have found from trivy image scan. The screenshot of trivy image scan result is attached below.
 <br><br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/7cf678d1-924d-4ffe-ac1f-cd43634a85e4)
-
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e98efcfb-2023-4873-af3d-277eb841c646)
 <br><br/>
