@@ -6,7 +6,8 @@
 2. To create ALB for SonarQube set instance_port as 9000, healthcheck_path as / and appropriate value of ec2_instance_id.
 3. To create ALB for Nexus set instance_port as 8081, healthcheck_path as / and appropriate value of ec2_instance_id.
 4. First of all create ALB for Jenkins and here create s3 bucket as well along with the ALB.
-5. Then create ALB for SonarQube and Nexus. While creating ALB for SonarQube and Nexus keep the option s3_bucket_exists as true, it will not create any new s3 bucket just use the existing s3 bucket to capture ALB access logs. 
+5. Then create ALB for SonarQube and Nexus. While creating ALB for SonarQube and Nexus keep the option s3_bucket_exists as true, it will not create any new s3 bucket just use the existing s3 bucket to capture ALB access logs.
+6. Provide Instance ID of Jenkins-Master, SonarQube or Nexus as per the requirement to create ALB of Jenkins-Master, SonarQube or Nexus respectively.
 ```
 <br><br/>
 **Provide bucket policy in file bucket-policy.json as shown below**
