@@ -170,5 +170,6 @@ An email has been sent on the group Email ID and user will ackowledge this issue
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/ee0105c8-57a8-4519-8b79-31d3f3b4f023)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b6ba213d-a1a1-4254-b548-2bb68a2666ad)
 <br><br/>
-After Closing the issue the Synthetic monitoring will work as working before, screenshot attach belo.
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/30086db5-3d22-48ff-9682-642e0ed1a081)
+After Closing the issue the Synthetic monitoring will work as working before, screenshot attach below.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/11024dcc-bfbb-4f0d-af31-19969f5a8d88)
