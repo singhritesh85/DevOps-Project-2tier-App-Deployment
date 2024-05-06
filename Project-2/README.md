@@ -102,4 +102,5 @@ ENV JAVA_OPTS="$JAVA_OPTS -Dnewrelic.config.license_key='PROVIDE_THE_LICENSE_KEY
 ```
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/a7ff7f87-5208-4bb3-ab6f-6399dac4dc54)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/ccfa13a0-f42a-4453-b151-ae7eb0d11a9a)
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/943f8e85-f958-4b49-ada9-32fbe371f4e5)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/9aeacf81-4ad1-44de-9f16-f7cc9305d786)
+
