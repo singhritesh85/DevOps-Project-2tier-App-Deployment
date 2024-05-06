@@ -106,4 +106,5 @@ ENV JAVA_OPTS="$JAVA_OPTS -Dnewrelic.config.license_key='PROVIDE_THE_LICENSE_KEY
 <br><br/>
 Screenshot of the Dockerfile after adding APM content is as shown below
 <br><br/>
-![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/44e4e376-043e-499a-82bf-4c6fb377ac0d)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d1307e65-da35-4b5e-be40-2ce217bc05bf)
+
