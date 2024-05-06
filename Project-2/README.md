@@ -144,8 +144,16 @@ Using this methodology I am pinging an URL in an interval of 1 miniute if URL wi
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5cdacec9-5497-4422-bc5f-11066e90740a)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/6865b411-ecc9-46e2-b2af-1778098050a6)
 <br><br/>
-Created a policy for Synthetic Monitoring.
+Created a Alarm policy for Synthetic Monitoring.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/1477652d-f73c-465a-906f-d0bdc6c8c7fa)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e9db5b4e-4536-4d25-a1c7-4157e6222ce9)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/7bdcc8bd-a6ba-4a8d-b96f-03041962a5f3)
+<br><br/>
+Create Alarm condition for synthetic monitoring.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/563fae0a-daeb-44e1-81fe-23e7b4284136)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e27eed3d-8bce-408c-8aee-168e716143f5)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/14fe2990-6222-45f8-ba42-57d53ef06c7b)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/094cdb8d-dee5-49e2-8fe4-0eb657dcfc07)
+
