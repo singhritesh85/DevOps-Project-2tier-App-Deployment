@@ -137,3 +137,14 @@ The same result I have found from trivy image scan. The screenshot of trivy imag
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e98efcfb-2023-4873-af3d-277eb841c646)
 <br><br/>
+##### Below I am explaining Synthetic Monitoring of type Ping
+Using this methodology I am pinging an URL in an interval of 1 miniute if URL will not be available then I will be notified for the same on my Email ID.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/83875620-8ca4-4025-b2a4-ed7d04542b06)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5cdacec9-5497-4422-bc5f-11066e90740a)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/6865b411-ecc9-46e2-b2af-1778098050a6)
+<br><br/>
+Created a policy for Synthetic Monitoring.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/1477652d-f73c-465a-906f-d0bdc6c8c7fa)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e9db5b4e-4536-4d25-a1c7-4157e6222ce9)
