@@ -114,6 +114,18 @@ It is sum of all the activity over the time a service recieves a web request and
 <br><br/>
 In the screenshot attached the web transaction time of nearly 800ms and 200ms around 10:00AM and 10:12AM UTC respectively represents transaction is quick at 10:12AM as compared to 10:00AM. 
 <br><br/>
+**Apdex Score:** Apdex Score measures the user's satisfaction with the web application. It's value lies between 0 to 1. A zero apdex score represents 100% request was frustrated and 1 apdex score respresents 100% request was satisfied.
 ```
 Apdex Score = (Satisfied Request + (Tolerated Request/2))/Total Request
+
+Total Request = Satisfied Request + Tolerated Request + Frustrated Request
+
+```
+```
+I am explaining Apdex Score through an example. Let us consider a host receives 100 requests in an interval of 1 minute and Apdex Threhold is 250 ms.
+70 requests are handled within 250 ms, it is called as satified requests.
+20 requests are handled between 250 ms and 2 seconds. So it is called as tolerated request.
+10 requests are handled in more than 2 seconds. So it is termed as frustrated requests.
+
+Apdex score = (70+(20/2))/100 = 0.8.
 ```
