@@ -110,5 +110,5 @@ Screenshot of the Dockerfile after adding APM content is as shown below
 
 <br><br/>
 **Web transaction time:**
-It is sum of all the activity over the time the service recieves a web request and provide the response.
+It is sum of all the activity over the time a service recieves a web request and provide the response.
 
