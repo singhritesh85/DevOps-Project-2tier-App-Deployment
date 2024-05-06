@@ -108,3 +108,7 @@ Screenshot of the Dockerfile after adding APM content is as shown below
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d1307e65-da35-4b5e-be40-2ce217bc05bf)
 
+<br><br/>
+**Web transaction time:**
+It is sum of all the activity over the time the service recieves a web request and provide the response.
+
