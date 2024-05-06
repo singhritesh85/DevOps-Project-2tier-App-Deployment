@@ -80,3 +80,23 @@ When a critical issue arises in an organization, User should work on it as per t
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/99a62c45-158f-4943-aad8-79307184a193)
 <br><br/>
 **I have explained APM (Application Performance Monitoring), RUM (Real Time User Monitoring) and Synthetic Monitoring below.**
+#### Application Performance Monitoring
+<br><br/>
+Download the zip file into the project directory using the command as written below.
+```
+curl -O https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic-java.zip
+```
+<br><br/>
+**For APM below lines should be added to Dockerfile.**
+<br><br/>
+```
+RUN mkdir -p /usr/local/tomcat/newrelic
+RUN mkdir -p /usr/local/tomcat/newrelic/logs
+ADD ./newrelic/newrelic.yml /usr/local/tomcat/newrelic/newrelic.yml
+ADD ./newrelic/newrelic.jar /usr/local/tomcat/newrelic/newrelic.jar
+ENV JAVA_OPTS="$JAVA_OPTS -javaagent:/usr/local/tomcat/newrelic/newrelic.jar"
+ENV NEW_RELIC_APP_NAME="PROVIDE_YOU_APP_NAME"
+ENV JAVA_OPTS="$JAVA_OPTS -Dnewrelic.config.app_name='PROVIDE_YOUR_APP_NAME'"
+ENV NEW_RELIC_LICENSE_KEY="PROVIDE_THE_LICENSE_KEY"
+ENV JAVA_OPTS="$JAVA_OPTS -Dnewrelic.config.license_key='PROVIDE_THE_LICENSE_KEY'"
+```
