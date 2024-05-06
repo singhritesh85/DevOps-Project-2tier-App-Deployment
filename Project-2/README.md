@@ -111,4 +111,9 @@ Screenshot of the Dockerfile after adding APM content is as shown below
 <br><br/>
 **Web transaction time:**
 It is sum of all the activity over the time a service recieves a web request and provide the response.
-
+<br><br/>
+In the screenshot attached the web transaction time of nearly 800ms and 200ms around 10:00AM and 10:12AM UTC respectively represents transaction is quick at 10:12AM as compared to 10:00AM. 
+<br><br/>
+```
+Apdex Score = (Satisfied Request + (Tolerated Request/2))/Total Request
+```
