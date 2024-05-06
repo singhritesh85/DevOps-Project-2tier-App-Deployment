@@ -156,4 +156,7 @@ Create Alarm condition for synthetic monitoring.
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/e27eed3d-8bce-408c-8aee-168e716143f5)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/14fe2990-6222-45f8-ba42-57d53ef06c7b)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/094cdb8d-dee5-49e2-8fe4-0eb657dcfc07)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/d081c9e1-b309-403a-a754-cbc87dcbb8ef)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/7ec764b5-1149-4830-a50e-c8d8a5243959)
+<br><br/>
 
