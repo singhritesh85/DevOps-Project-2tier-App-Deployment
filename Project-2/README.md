@@ -173,3 +173,5 @@ An email has been sent on the group Email ID and user will ackowledge this issue
 After Closing the issue the Synthetic monitoring will work as working before, screenshot attach below.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/11024dcc-bfbb-4f0d-af31-19969f5a8d88)
+<br><br/>
+In the similar way it is possible to monitor SSL Certificate, API Endpoint etc using Synthetic Monitoring.
