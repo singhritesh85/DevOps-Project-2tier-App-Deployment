@@ -160,4 +160,6 @@ Create Alarm condition for synthetic monitoring.
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/6f1eb823-87cf-4bbf-a2eb-540d923cf93c)
 
 <br><br/>
-
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/c7260b41-852d-4757-8876-a4b3e493c9bd)
+Now remove the entry from Route53 record set for demo-app and jenkins-master URL and check how synthetic monitoring behaves.
+<br><br/>
