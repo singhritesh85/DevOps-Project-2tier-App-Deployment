@@ -129,3 +129,4 @@ I am explaining Apdex Score through an example. Let us consider a host receives 
 
 Apdex score = (70+(20/2))/100 = 0.8.
 ```
+**Throughput:** For APM throughput can be considered as requests per minute (RPM). For Browser it can be considered as page view per minute.
