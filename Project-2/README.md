@@ -161,5 +161,14 @@ Create Alarm condition for synthetic monitoring.
 
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/1399667b-349f-4c4b-bda4-88db81e0ab43)
-Now remove the entry from Route53 record set for demo-app and jenkins-master URL and check how synthetic monitoring behaves.
+Now for the demonstration purpose I removed the entry from Route53 record set for demo-app and jenkins-master URL and check how synthetic monitoring behaves.
 <br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/c4a24757-d5ff-4158-b589-e9270c5a252d)
+<br><br/>
+An email has been sent on the group Email ID and user will ackowledge this issue and work on in it. After worked on the issue user will close it.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/ee0105c8-57a8-4519-8b79-31d3f3b4f023)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b6ba213d-a1a1-4254-b548-2bb68a2666ad)
+<br><br/>
+After Closing the issue the Synthetic monitoring will work as working before, screenshot attach belo.
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/30086db5-3d22-48ff-9682-642e0ed1a081)
