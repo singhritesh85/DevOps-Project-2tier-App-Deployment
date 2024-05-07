@@ -194,3 +194,6 @@ Go to **+ADD Data** option in left hand side column and Serach for Browser Monit
 Open Cloudwatch console and go to Dashboard > Automatic Dashboard > RDS. The screenshot of the same is shown below.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/310d64fe-3c5d-493b-974b-5a2cec9e1142)
+<br><br/>
+Using this Dashboard you can create a new Dashboard as shown in screenshot below.
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/391ed9b8-9aef-4d02-b662-99fee701b5ff)
