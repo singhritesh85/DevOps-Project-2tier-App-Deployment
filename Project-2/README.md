@@ -175,3 +175,10 @@ After Closing the issue the Synthetic monitoring will work as working before, sc
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/11024dcc-bfbb-4f0d-af31-19969f5a8d88)
 <br><br/>
 In the similar way it is possible to monitor SSL Certificate Expiration, API Endpoint etc using Synthetic Monitoring.
+<br><br/>
+**Browser Monitoring:** In NewRelic Real Time User Monitoring (RUM) will be performed using Browser Monitoring.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/02ef3bd4-9428-4851-ac29-0397f176cb0d)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/37b7d36d-0b5f-4cc9-89fc-b6702f9673db)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/05e607f7-d00c-44ef-8b44-3627331bab37)
+![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0a1cf29a-e4b8-4c1a-b702-2f119453063f)
