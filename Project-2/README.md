@@ -1,5 +1,5 @@
 ### Monitoring of end-to-end infrastructure and Application for Project-1
-You can Consider this project as continuation of Project-1. In this project I am explaining how to perform monitoring of Infrastructure of Project-1 and Application Performance Monitoring(APM) using NewRelic and CloudWatch.
+You can Consider this project as continuation of Project-1. In this project I am explaining how to perform monitoring of Infrastructure of Project-1 and Application Performance Monitoring(APM) using NewRelic and RDS Monitoring using CloudWatch.
 
 <br><br/>
 I have created EKS Cluster with two nodes of instance type **t3.small**. 
