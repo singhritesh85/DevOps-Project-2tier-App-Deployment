@@ -204,5 +204,5 @@ You can add further graphs in this Dashboard and from Cloudwatch Alarm it possib
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/437fec71-5238-43ae-bc02-79dbace926bb)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/a9a95904-7e84-4beb-bd81-ec79188b55da)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/3a46dba2-1abb-4068-b90d-50b43e4397a3)
-![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/a134062e-f115-436f-bbaf-6d4967a0925f)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/4f7ab7cf-7648-44d9-81f2-ad81ff4c9fcb)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/31b15087-35c6-47d7-ad99-1946a5fff1c7)
