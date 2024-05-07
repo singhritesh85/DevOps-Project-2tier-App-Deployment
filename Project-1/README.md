@@ -36,6 +36,26 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/f20c0db8-6de6-4914-856c-4f7f1755c959)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5e2ed699-6391-4cb0-80e0-bfd5dfab5b0d)
 <br><br/>
+**Create Swap space on Jenkins-Master and Jenkins Slave as written below**
+```
+sudo fallocate -l 512M /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+
+vim /etc/fstab
+
+
+/swapfile swap swap defaults 0 0
+
+
+:wq
+
+swapon -a
+free -mh
+```
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/e33cf43c-dc5c-4efb-9eab-67400ee3c881)
+
+<br><br/>
 Install Java 17 
 Install Docker and start Docker Service 
 download maven binary and unarchive it
