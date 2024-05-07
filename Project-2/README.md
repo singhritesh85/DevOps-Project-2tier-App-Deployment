@@ -188,3 +188,9 @@ Go to **+ADD Data** option in left hand side column and Serach for Browser Monit
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/37b7d36d-0b5f-4cc9-89fc-b6702f9673db)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/05e607f7-d00c-44ef-8b44-3627331bab37)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/0a1cf29a-e4b8-4c1a-b702-2f119453063f)
+<br><br/>
+**For RDS Monitoring cloudwatch can be used and I have enabled the enhanced monitoring of RDS. With enhanced monitoring of RDS we can monitor granular level monitoring of OS metrics of DB Instance.**
+<br><br/>
+Open Cloudwatch console and go to Dashboard > Automatic Dashboard > RDS. The screenshot of the same is shown below.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/310d64fe-3c5d-493b-974b-5a2cec9e1142)
