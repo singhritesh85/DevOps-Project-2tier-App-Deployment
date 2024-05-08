@@ -47,7 +47,7 @@ resource "aws_instance" "ec2" {
 resource "aws_eip" "eip_associate" {
   domain = "vpc"     ###vpc = true
 } 
-resource "aws_eip_association" "eip_association" {
+resource "aws_eip_association" "eip_association" {  ### I will use this EC2 behind the ALB.
   instance_id   = aws_instance.ec2.id
   allocation_id = aws_eip.eip_associate.id
 }
