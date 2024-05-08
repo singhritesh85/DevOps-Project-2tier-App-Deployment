@@ -11,4 +11,4 @@ Security is a major concern for an IT Organisation. However Security team is res
 ```
 **For this project pillar 1 and pillar 2 has been covered with Project-1 and pillar 3 and pillar 4 has been covered with Project-2.**
 <br><br/>
-**A brief discussion on Security have explained through Project-3.**
+**A brief discussion on Security have been explained through Project-3.**
