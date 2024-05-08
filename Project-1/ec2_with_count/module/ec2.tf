@@ -45,6 +45,9 @@ resource "aws_instance" "ec2" {
   }
 }
 resource "aws_eip" "eip_associate" {
-  instance = aws_instance.ec2.id
   domain = "vpc"     ###vpc = true
 } 
+resource "aws_eip_association" "eip_association" {
+  instance_id   = aws_instance.ec2.id
+  allocation_id = aws_eip.eip_associate.id
+}
