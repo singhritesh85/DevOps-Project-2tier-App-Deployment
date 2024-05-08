@@ -26,6 +26,19 @@ resource "aws_instance" "ec2" {
     prevent_destroy=false
     ignore_changes=[ ami ]
   }
+
+  private_dns_name_options {
+    enable_resource_name_dns_a_record    = true
+    enable_resource_name_dns_aaaa_record = false
+    hostname_type                        = "ip-name"
+  }
+
+  metadata_options { #Enabling IMDSv2
+    http_endpoint = "enabled"
+    http_tokens   = "required"
+    http_put_response_hop_limit = 2
+  }
+
   tags={
     Name=var.name
     Environment = var.env
