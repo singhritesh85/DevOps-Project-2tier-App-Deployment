@@ -217,3 +217,17 @@ Whenever it crosses the threshold it will send notification on group email id us
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/c0baf0a0-b5aa-4d03-880d-5d94d2bb7664)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/6c491663-7ff0-43c1-9717-ad854d8233ca)
+<br><br/>
+**For Centralized Logging I am using here NewRelic, However ELK can also be used but here I am using NewRelic.**
+<br><br/>
+I had installed NewRelic Agent using helm to this EKS Cluster which capture logs from the cluster and send them to newrelic.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/37819a73-d188-4371-9c22-b21e94e24b07)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/68b54ce1-db4e-4d71-85f8-536a39e1c2ff)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/5f76b493-f4c1-474e-84ac-72acec022475)
+<br><br/>
+**For RDS Logs are captured to Cloudwatch Log Group as shown in the screenshots below.**
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/15761326-1418-4b75-84ed-6ddd176cb4b2)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/39b6b4d1-9db5-479c-92e4-42cdbe2e9c5d)
+
+<br><br/>
