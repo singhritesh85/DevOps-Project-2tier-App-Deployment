@@ -229,5 +229,8 @@ I had installed NewRelic Agent using helm to this EKS Cluster which capture logs
 **For RDS Logs are captured to Cloudwatch Log Group as shown in the screenshots below.**
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/15761326-1418-4b75-84ed-6ddd176cb4b2)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/39b6b4d1-9db5-479c-92e4-42cdbe2e9c5d)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/39c13c6d-922d-41a4-b73c-704e564821bb)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/904bff41-3d84-4f8b-a7a6-b69ea66f06a7)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/1569f948-8e2c-4561-a476-be185362c787)
 
 <br><br/>
