@@ -20,7 +20,6 @@ Now you will not face this issue again.
 <br><br/>
 You can add nameserver 8.8.8.8 in your /etc/resolv.conf file but when you reboot you EC2 Instance then these changes will not be reflected in your EC2 Instance. To bring these changes in effect even after you rebooted your EC2 Instance add the entry **supersede domain-name-servers 8.8.8.8;** in file **/etc/dhcp/dhclient.conf**.
 <br><br/>
-If you are getting notification in Nexus regarding File Descriptors then first of all stop the nexus service as /opt/nexus/bin/nexus stop then start nexus as a service using sudo systemctl start nexus && sudo systemctl enable nexus && sudo systemctl status nexus. I had discussed how to create nexus as a service at the time of it's installation in Project-1. Then again start nexus using /opt/nexus/bin/nexus start and check it's status using /opt/nexus/bin/nexus status.
+If you are getting notification in Nexus regarding File Descriptors then first of all stop the nexus service as **/opt/nexus/bin/nexus** stop then start nexus as a service using **sudo systemctl start nexus && sudo systemctl enable nexus && sudo systemctl status nexus**. I had discussed how to create nexus as a service at the time of it's installation in Project-1. Then again start nexus using **/opt/nexus/bin/nexus start** and check it's status using **/opt/nexus/bin/nexus status**.
 <br><br/>
-If you are getting notification in Nexus regarding File Descriptors then first of all stop the nexus service as /opt/nexus/bin/nexus stop then start nexus as a service using sudo systemctl start nexus && sudo systemctl enable nexus && sudo systemctl status nexus. I had discussed how to create nexus as a service at the time of it's installation in Project-1. Then again start nexus using /opt/nexus/bin/nexus start and check it's status using /opt/nexus/bin/nexus status.
-<br><br/>
+
