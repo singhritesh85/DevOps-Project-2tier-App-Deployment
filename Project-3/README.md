@@ -83,6 +83,8 @@ For both the RDS I have opened port for both the VPC CIDRs. As the EKS is presen
 <br><br/>
 Jenkins-Master, Jenkins-Slave, SonarQube-Server and Nexus-Server all are present in the same VPC as of both the RDS.
 <br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/5490aa74-8a18-4c27-932b-f4555f3c0893)
+
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/b483e359-7dc6-4945-a3cb-c15bac7fdaf4)
 
 
