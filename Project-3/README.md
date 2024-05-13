@@ -68,6 +68,10 @@ I have configured Email-Notification as shown in the screenshot below.
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/55fbe8aa-70fd-49f3-8a82-1abae70c8add)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/708a559a-6571-4a77-8b41-f290c774e40b)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/211fb7c6-3cb3-422b-bdb6-23d30ad15c0e)
+<br><br/>
+You can configure SES using sendmail on Jenkins-Slave EC2 as shown in the Project-1, if you need to send any report.
+<br><br/>
+
 
 <br><br/>
 <br><br/>
