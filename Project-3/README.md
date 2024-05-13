@@ -58,7 +58,17 @@ I have opened port 8080 for ALB Security Group becuase it is going (ALB perform 
 For Jenkins-Slave below is the security group
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/b6289f31-cdf3-49c8-afc3-279dcff6ffad)
-I have opened VPC CIDR on port 22 for SSH and used Jenkins-Slave's private IP to configure Jenkins-Slave Node.
+I have opened VPC CIDR on port 22 for SSH and used Jenkins-Slave's private IP to configure Jenkins-Slave Node and opened port 22 for my public IP to login using secure shell (SSH).
+
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/518a4b25-6247-4b41-9dff-33e10cf60f9e)
+
+<br><br/>
+I have configured Email-Notification as shown in the screenshot below.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/55fbe8aa-70fd-49f3-8a82-1abae70c8add)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/708a559a-6571-4a77-8b41-f290c774e40b)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/211fb7c6-3cb3-422b-bdb6-23d30ad15c0e)
+
 <br><br/>
 <br><br/>
 <br><br/>
