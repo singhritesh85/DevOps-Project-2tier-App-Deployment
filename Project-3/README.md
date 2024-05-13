@@ -86,9 +86,17 @@ Jenkins-Master, Jenkins-Slave, SonarQube-Server and Nexus-Server all are present
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/5490aa74-8a18-4c27-932b-f4555f3c0893)
 
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/b483e359-7dc6-4945-a3cb-c15bac7fdaf4)
+<br><br/>
+Finally you will be able to access the Application.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/ef3c46f0-829f-4b90-a7bb-d9a252683edf)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/236e16c7-e504-4715-99c1-9bc9c40ddda8)
 
 
 
+
+
+<br><br/>
 <br><br/>
 <br><br/>
 <br><br/>
