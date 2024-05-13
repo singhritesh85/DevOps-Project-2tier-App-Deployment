@@ -76,7 +76,11 @@ You can configure SES using sendmail on Jenkins-Slave EC2 as shown in the Projec
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/222069d4-8a5c-4ca1-9e12-cd3a558b2d3a)
 For ALB security Group I have opened port 9000 to perform health check and I have opened port 9000 and 22 for my public IP. To login into EC2 using secure shell (SSH) opened port 22 and after installation of sonarqube just used http://<my-public-Ip>:9000 for testing purpose (Just for testing whether sonarqube is installed properly or not).
 
-<br><br/
+
+
+
+<br><br/>
+<br><br/>
 <br><br/>
 <br><br/>
 **This is the project which I have created for Demostration purpose as a General Project that's why I have used Public Repository.**
