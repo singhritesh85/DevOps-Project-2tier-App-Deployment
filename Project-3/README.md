@@ -79,7 +79,7 @@ For ALB security Group I have opened port 9000 to perform health check and hence
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/71724c4a-f1dd-4263-9cab-6ec2c87b2a6a)
 For ALB security Group I have opened port 8081 to perform health check and hence access the Application and I have opened port 8081 and 22 for my public IP. To login into EC2 using secure shell (SSH) opened port 22 and after installation of Sonatype-Nexus just used http://<my-public-Ip>:8081 for testing purpose (Just for testing whether Nexus is installed properly or not).
 <br><br/>
-For both the RDS I have opened port for both the VPC CIDRs. As the EKS is present in another VPC and the 2 tier application will communicate with the MySQL RDS, I have established VPC peering between the two VPCs. If you want you can remove EKS VPC CIDR from PostgreSQL RDS Security Group. 
+For both the RDS I have opened port for both the VPC CIDRs. As the EKS is present in another VPC and the 2 tier application will communicate with the MySQL RDS, I have established VPC peering between the two VPCs. If you want you can remove EKS VPC CIDR from PostgreSQL RDS Security Group, As the PostgreSQL RDS is created to communicate with the SonarQube Server and PostgreSQL and SonarQube-Server both are present in the same VPC.
 <br><br/>
 Jenkins-Master, Jenkins-Slave, SonarQube-Server and Nexus-Server all are present in the same VPC as of both the RDS.
 <br><br/>
