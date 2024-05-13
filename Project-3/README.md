@@ -25,4 +25,4 @@ Changed the SELINUX from Disabled to enforcing mode.
 <br><br/>
 <br><br/>
 <br><br/>
-**This is project I have created for Demostration purpose that's why I have used Public Repository.**
+**This is the project which I have created for Demostration purpose that's why I have used Public Repository.**
