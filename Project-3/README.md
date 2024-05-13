@@ -43,7 +43,8 @@ For Nexus kept the SELINUX is enforcing mode and install then configure the fire
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/39f695ce-6ea0-43dc-9e30-4deb1f9eaefb)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/16574805-30f3-472f-b4cb-730b10706825)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/b035b8f9-f29e-4229-bbb1-76a4db25bf23)
-![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/5ec0a45d-eca6-4bd9-8063-ba5c7921e7a2)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/07110d79-f673-4997-81e4-532395087a75)
+
 
 
 <br><br/>
