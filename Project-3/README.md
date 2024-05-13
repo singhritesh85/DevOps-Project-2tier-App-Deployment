@@ -36,6 +36,7 @@ I had created both the RDS (MySQL and PostgreSQL) in one VPC and EKS in another 
 Both the RDS are not accessible publicly.
 <br><br/>
 <br><br/>
+
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/6d611883-e289-4389-9235-89dc5160206e)
 
 <br><br/>
