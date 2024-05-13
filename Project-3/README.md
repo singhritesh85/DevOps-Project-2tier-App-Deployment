@@ -71,6 +71,8 @@ I have configured Email-Notification as shown in the screenshot below.
 <br><br/>
 You can configure SES using sendmail on Jenkins-Slave EC2 as shown in the Project-1, if you need to send any report.
 <br><br/>
+**Security Group for SonarQube Server and Nexus Server is shown in the Screenshot below**
+<br><br/>
 
 
 <br><br/>
