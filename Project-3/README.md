@@ -54,7 +54,11 @@ Below is the Security Group for Jenkins-Master
 <br><br/>
 I have opened port 8080 for ALB Security Group becuase it is going (ALB perform health check for Target Group EC2 Instance) to check health of the Application which is running in EC2 Instance behind the Load Balancer and opened port 22 for My Public IP, So that I can login into the EC2 Instance using secure shell (SSH).
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/65b51968-2bd1-4399-9c7c-4ae7049baf54)
-
+<br><br/>
+For Jenkins-Slave below is the security group
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/b6289f31-cdf3-49c8-afc3-279dcff6ffad)
+I have opened VPC CIDR on port 22 for SSH and used Jenkins-Slave's private IP to configure Jenkins-Slave Node.
 <br><br/>
 <br><br/>
 <br><br/>
