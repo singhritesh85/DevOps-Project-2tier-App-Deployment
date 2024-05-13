@@ -37,6 +37,14 @@ I had created both the RDS (MySQL and PostgreSQL) in one VPC and EKS in another 
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/6d611883-e289-4389-9235-89dc5160206e)
 
+<br><br/>
+For Nexus kept the SELINUX is enforcing mode and install then configure the firewalld as shown in the screenshot below.
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/39f695ce-6ea0-43dc-9e30-4deb1f9eaefb)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/16574805-30f3-472f-b4cb-730b10706825)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/b035b8f9-f29e-4229-bbb1-76a4db25bf23)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/5ec0a45d-eca6-4bd9-8063-ba5c7921e7a2)
+
 
 <br><br/>
 <br><br/>
