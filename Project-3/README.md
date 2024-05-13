@@ -28,7 +28,7 @@ For SonarQube kept the SELINUX is enforcing mode and install then configure the 
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/173be50e-b3e3-476d-9b37-d8e7b7708a41)
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/ee87ec88-d548-4e19-ba32-0febe97cedf7)
-![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/d76a28aa-3d19-49b4-aadf-c9cb0164a81e)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/00e5741a-97ab-449b-add2-4c4003adb4db)
 <br><br/>
 I had created both the RDS (MySQL and PostgreSQL) in one VPC and EKS in another VPC, established VPC peering between both the VPCs.
 <br><br/>
