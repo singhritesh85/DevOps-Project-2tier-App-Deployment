@@ -44,8 +44,16 @@ For Nexus kept the SELINUX is enforcing mode and install then configure the fire
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/16574805-30f3-472f-b4cb-730b10706825)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/b035b8f9-f29e-4229-bbb1-76a4db25bf23)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/07110d79-f673-4997-81e4-532395087a75)
-
-
+<br><br/>
+Whenever any traffic comes at Port 80 of ALB it will be redirected to 443 and i had opened port 80 and 443 to entire world. You can provide your VPN IP here which is provided by your organisation
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/4ff6c147-71f6-40c4-a2fc-fb3353a4f011)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/bffb8c55-5f90-4ba3-8b70-869027ce59d6)
+<br><br/>
+Below is the Security Group for Jenkins-Master
+<br><br/>
+I have opened port 8080 for ALB Security Group becuase it is going (ALB perform health check for Target Group EC2 Instance) to check health of the Application which is running in EC2 Instance behind the Load Balancer and opened port 22 for My Public IP, So that I can login into the EC2 Instance using secure shell (SSH).
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/65b51968-2bd1-4399-9c7c-4ae7049baf54)
 
 <br><br/>
 <br><br/>
