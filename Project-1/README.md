@@ -134,7 +134,7 @@ Install 1. Nexus Artifact Uploader 2. SonarQube Scanner for Jenkins and 3. Pipel
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/59d7a00d-36fe-409b-8440-ea308b4d274d)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/b2082d7a-e566-4b18-8f76-aef23957a989)
 <br><br/>
-**Configure Email Notification in Jenkins (Below is the must do step If you want to send Email on Group Email ID to notify regarding the Jenkins Job and whether it ran successfully or not)**
+**Configure Email Notification in Jenkins (Below is the mandatory step If you want to send Email on Group Email ID to notify regarding the Jenkins Job and whether it ran successfully or not)**
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/2403ca74-560d-4324-b91b-141f1b6a66f2)
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/7099dc06-d301-4232-a299-340931fa6357)
