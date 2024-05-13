@@ -26,7 +26,10 @@ For SonarQube kept the SELINUX is enforcing mode and install then configure the 
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/78f02104-bbb5-4b50-a1b3-ec299145ddad)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/5bedc119-02d4-4154-8fc9-93483e69e4bc)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/173be50e-b3e3-476d-9b37-d8e7b7708a41)
-
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/ee87ec88-d548-4e19-ba32-0febe97cedf7)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/d76a28aa-3d19-49b4-aadf-c9cb0164a81e)
+<br><br/>
 
 
 
