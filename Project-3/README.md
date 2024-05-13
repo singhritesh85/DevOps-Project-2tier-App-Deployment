@@ -21,7 +21,7 @@ Changed the SELINUX from Disabled to enforcing mode.
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/720a9c07-3caf-47ff-b49c-77ae3e19deee)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/92b4fb98-1623-4c5b-90c8-b3b34c0e7bc2)
 <br><br/>
-For SonarQube kept the SELINUX is enforcing mode and install then configure the firewalld as shown in the screenshot below.
+For SonarQube kept the SELINUX is permissive mode and install then configure the firewalld as shown in the screenshot below.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/78f02104-bbb5-4b50-a1b3-ec299145ddad)
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/5bedc119-02d4-4154-8fc9-93483e69e4bc)
