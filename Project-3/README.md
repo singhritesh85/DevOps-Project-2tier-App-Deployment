@@ -52,7 +52,7 @@ Whenever any traffic comes at Port 80 of ALB it will be redirected to 443 and i 
 <br><br/>
 Below is the Security Group for Jenkins-Master
 <br><br/>
-I have opened port 8080 for ALB Security Group becuase it is going (ALB perform health check for Target Group EC2 Instance) to check health of the Application which is running in EC2 Instance behind the Load Balancer and opened port 22 for My Public IP, So that I can login into the EC2 Instance using secure shell (SSH).
+I have opened port 8080 for ALB Security Group becuase it is going perform health check of the Application which is running in EC2 Instance behind the Load Balancer and hence access the Applicaion and opened port 22 for My Public IP, So that I can login into the EC2 Instance using secure shell (SSH).
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/65b51968-2bd1-4399-9c7c-4ae7049baf54)
 <br><br/>
 For Jenkins-Slave below is the security group
@@ -74,8 +74,10 @@ You can configure SES using sendmail on Jenkins-Slave EC2 as shown in the Projec
 **Security Group for SonarQube Server and Nexus Server is shown in the Screenshot below**
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/222069d4-8a5c-4ca1-9e12-cd3a558b2d3a)
-For ALB security Group I have opened port 9000 to perform health check and I have opened port 9000 and 22 for my public IP. To login into EC2 using secure shell (SSH) opened port 22 and after installation of sonarqube just used http://<my-public-Ip>:9000 for testing purpose (Just for testing whether sonarqube is installed properly or not).
-
+For ALB security Group I have opened port 9000 to perform health check and hence access the Application and I have opened port 9000 and 22 for my public IP. To login into EC2 using secure shell (SSH) opened port 22 and after installation of sonarqube just used http://<my-public-Ip>:9000 for testing purpose (Just for testing whether sonarqube is installed properly or not).
+<br><br/>
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/71724c4a-f1dd-4263-9cab-6ec2c87b2a6a)
+For ALB security Group I have opened port 8081 to perform health check and hence access the Application and I have opened port 8081 and 22 for my public IP. To login into EC2 using secure shell (SSH) opened port 22 and after installation of Sonatype-Nexus just used http://<my-public-Ip>:8081 for testing purpose (Just for testing whether Nexus is installed properly or not).
 
 
 
