@@ -17,6 +17,7 @@
 Changed the SELINUX from Disabled to enforcing mode.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/bbf59e88-2ccc-42b0-ab1b-03cd570d5029)
+![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/92b4fb98-1623-4c5b-90c8-b3b34c0e7bc2)
 
 
 
