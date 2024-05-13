@@ -74,7 +74,7 @@ curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/inst
 ```
 ![image](https://github.com/singhritesh85/DevOps-Project/assets/56765895/5ecc5ab7-440a-4bd2-bc52-91fe117c4ecb)
 <br><br/>
-**Configure Sendmail with SES on Jenkins Slave Node, So that you can send any report using mail if you want(below is not the must do step this will be configured if you send any report through mail from your Jenkins-Slave this is an optional step)**
+**Configure Sendmail with SES on Jenkins Slave Node, So that you can send any report using mail if you want(below is not the must do step this will be configured if you want to send any report through mail from your Jenkins-Slave this is an optional step)**
 ```
 yum install -y sendmail sendmail-cf m4
 vim /etc/mail/authinfo
