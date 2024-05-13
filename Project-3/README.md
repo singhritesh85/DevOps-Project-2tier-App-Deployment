@@ -33,7 +33,7 @@ For SonarQube kept the SELINUX in permissive mode and install then configure the
 I had created both the RDS (MySQL and PostgreSQL) in one VPC and EKS in another VPC, established VPC peering between both the VPCs.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/6c9d31a9-d790-457d-b545-dd652aad7a05)
-
+Both the RDS are not accessible publicly.
 <br><br/>
 ![image](https://github.com/singhritesh85/DevOps-Project-2tier-WebApp-Deployment/assets/56765895/6d611883-e289-4389-9235-89dc5160206e)
 
